@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Product Catalog</title>
+</head>
+<body>
+<!-- Product Catalog using a table -->
+<header>
+<h1>Online Store - Product Catalog</h1>
+</header>
+
+
+<main>
+<!-- Table listing products with images and use of colspan/rowspan -->
+<table border="1" title="Product Catalog Table">
+<caption>Available Products</caption>
+<thead>
+<tr>
+<th>Product</th>
+<th>Description</th>
+<th>Price</th>
+<th>Availability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<img src="product-laptop.jpg" alt="Laptop Image" width="120">
+<p>UltraBook Pro</p>
+</td>
+<td>Lightweight laptop with 16GB RAM, 512GB SSD.</td>
+<td>$999</td>
+<td>In Stock</td>
+</tr>
+
+
+<tr>
+<td rowspan="2">
+<img src="product-headphones.jpg" alt="Headphones Image" width="120">
+<p>NoiseCancel X</p>
+</td>
+<td>Wireless over-ear headphones with ANC.</td>
+<td>$199</td>
+<td>In Stock</td>
+</tr>
+<tr>
+<!-- Using rowspan above so this row provides extra detail spanning Product cell -->
+<td colspan="2">Includes carrying case and 2-year warranty.</td>
+<td>Limited</td>
+</tr>
+
+
+<tr>
+<td>
+<img src="product-mug.jpg" alt="Coffee Mug Image" width="120">
+<p>Thermo Mug</p>
+</td>
+<td>Insulated mug keeps drinks hot for 6 hours.</td>
+<td>$24</td>
+<td>Out of Stock</td>
+</tr>
+</tbody>
+</table>
+</main>
+
+
+<footer>
+<p>&copy; 2025 Online Store</p>
+</footer>
+</body>
+</html>
